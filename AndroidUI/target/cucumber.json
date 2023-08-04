@@ -1,0 +1,540 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-08-04T01:56:50.486Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4378623000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hook.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Register success",
+        "description": "",
+        "id": "001register;register-success",
+        "after": [
+          {
+            "result": {
+              "duration": 202948000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hook.closeAppSwitch()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2219722000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I Open the register page",
+            "match": {
+              "location": "steps.stepRegister.iOpenTheRegisterPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4386152000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I fill with all valid data",
+            "match": {
+              "location": "steps.stepRegister.iFillWithAllValidData()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 107714000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click register button",
+            "match": {
+              "location": "steps.stepRegister.clickRegisterButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 66901000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify register is success",
+            "match": {
+              "location": "steps.stepRegister.verifyRegisterIsSuccess()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Register"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-08-04T01:57:01.872Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3565051000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hook.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Register using email already taken",
+        "description": "",
+        "id": "001register;register-using-email-already-taken",
+        "after": [
+          {
+            "result": {
+              "duration": 223081000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hook.closeAppSwitch()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2158281000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I Open the register page",
+            "match": {
+              "location": "steps.stepRegister.iOpenTheRegisterPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2341162000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I fill with registered email",
+            "match": {
+              "location": "steps.stepRegister.iFillWithRegisteredEmail()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 569197000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Click register button",
+            "match": {
+              "location": "steps.stepRegister.clickRegisterButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 657890000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Verify there is a toast notification",
+            "match": {
+              "location": "steps.stepRegister.verifyThereIsAToastNotification()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Register"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-08-04T01:57:11.401Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3543707000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hook.setUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Register using invalid data",
+        "description": "",
+        "id": "001register;register-using-invalid-data",
+        "after": [
+          {
+            "result": {
+              "duration": 193349000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hook.closeAppSwitch()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2150894000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I Open the register page",
+            "match": {
+              "location": "steps.stepRegister.iOpenTheRegisterPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2364889000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I fill with invalid name",
+            "match": {
+              "location": "steps.stepRegister.iFillWithInvalidName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1177483000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Click register button",
+            "match": {
+              "location": "steps.stepRegister.clickRegisterButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 60259000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Verify there is a notification on name form",
+            "match": {
+              "location": "steps.stepRegister.verifyThereIsANotificationOnNameForm()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Register"
+          }
+        ]
+      }
+    ],
+    "name": "001Register",
+    "description": "",
+    "id": "001register",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/001featureRegister.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-08-04T01:57:20.904Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3478285000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hook.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Login success",
+        "description": "",
+        "id": "002login;login-success",
+        "after": [
+          {
+            "result": {
+              "duration": 201011000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hook.closeAppSwitch()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 557000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I Open the login page",
+            "match": {
+              "location": "steps.stepLogin.iOpenTheLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 913469000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I fill with valid data",
+            "match": {
+              "location": "steps.stepLogin.iFillWithValidData()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2137103000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click login button",
+            "match": {
+              "location": "steps.stepLogin.clickLoginButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 704825000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify login is success",
+            "match": {
+              "location": "steps.stepLogin.verifyLoginIsSuccess()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-08-04T01:57:28.350Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3553525000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hook.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Login with invalid email",
+        "description": "",
+        "id": "002login;login-with-invalid-email",
+        "after": [
+          {
+            "result": {
+              "duration": 217595000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hook.closeAppSwitch()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 850000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I Open the login page",
+            "match": {
+              "location": "steps.stepLogin.iOpenTheLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 932761000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I fill with invalid email",
+            "match": {
+              "location": "steps.stepLogin.iFillWithInvalidEmail()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2702257000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Click login button",
+            "match": {
+              "location": "steps.stepLogin.clickLoginButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 63648000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Verify there is a notification on email form",
+            "match": {
+              "location": "steps.stepLogin.verifyThereIsANotificationOnEmailForm()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-08-04T01:57:35.829Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3547940000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hook.setUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Login with invalid password",
+        "description": "",
+        "id": "002login;login-with-invalid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 194838000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hook.closeAppSwitch()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 596000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I Open the login page",
+            "match": {
+              "location": "steps.stepLogin.iOpenTheLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 968528000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I fill with invalid password",
+            "match": {
+              "location": "steps.stepLogin.iFillWithInvalidPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2102186000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Click login button",
+            "match": {
+              "location": "steps.stepLogin.clickLoginButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 613828000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Verify there is a notification toast",
+            "match": {
+              "location": "steps.stepLogin.verifyThereIsANotificationToast()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      }
+    ],
+    "name": "002Login",
+    "description": "",
+    "id": "002login",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/002featureLogin.feature",
+    "tags": []
+  }
+]

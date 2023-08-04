@@ -1,0 +1,12 @@
+#Device Info
+#Fri Aug 04 08:57:39 WIB 2023
+Android\ Version=androidPlatformVersion
+androidAutomationName=UiAutomator2
+androidPlatformName=ANDROID
+androidAppPackage=com.loginmodule.learning
+androidAppLocation=/src/test/resources/loginRegister.apk
+androidAppActivity=com.loginmodule.learning.activities.LoginActivity
+udid=emulator-5554
+Device\ Name=udid
+localURL=http\://0.0.0.0\:4723/wd/hub
+androidPlatformVersion=13
